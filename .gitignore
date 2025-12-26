@@ -1,0 +1,27 @@
+# Environments and secrets
+.venv/
+.env
+
+# Python artifacts
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+
+# Coverage / test outputs
+.coverage
+*.coverage
+htmlcov/
+
+# Local data and logs
+vyxen_core/data/
+*.log
+*.log.*
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.gz
+
+# OS/editor noise
+.DS_Store
